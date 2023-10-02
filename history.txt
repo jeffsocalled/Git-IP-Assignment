@@ -1,0 +1,12 @@
+  447  mkdir Git1
+  448  cd Git1
+  449  touch Code.txt Log.txt Output.txt
+  450  ls
+  451  git init
+  452  git status
+  453  git add Code.txt Output.txt
+  454  git status
+  455  git commit -m "comitted Code,Output files"
+  456  git remote add origin https://github.com/jeffsocalled/Git-IP-Assignment.git
+  457  git push -u origin main
+
