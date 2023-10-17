@@ -1,0 +1,509 @@
+  142  git status
+  143  git rm --cached
+  144  git rm --cached a.asv
+  145  git status
+  146  git add a.asv 
+  147  vi a.asv 
+  148  git rm --cached a.asv
+  149  git status
+  150  git restore a.asv
+  151  git status
+  152  vi a.asv 
+  153  git status
+  154  git add a.asv a.asv 
+  155  git status
+  156  cat a.asv 
+  157  git add a.asv
+  158  git status
+  159  git rm a.asv 
+  160  git status
+  161  git rm --cached a.asv 
+  162  git status
+  163  git add a.asv 
+  164  cat a.asv 
+  165  git rm -f a.asv
+  166  git status
+  167  git add a.asv
+  168  ls
+  169  touch new.txt
+  170  git status
+  171  git add new.txt 
+  172  touch new2.txt
+  173  git status
+  174  git add .
+  175  git status
+  176  vi new2.txt 
+  177  git status
+  178  vi new.txt 
+  179  git status
+  180  git rm --cached new.txt
+  181  cat new.txt 
+  182  git rm --cached -f new.txt
+  183  cat new.txt 
+  184  git status
+  185  touch test.txt
+  186  git status
+  187  git add test.txt 
+  188  git rm --cached test.txt 
+  189  git status
+  190  cat new.txt 
+  191  cat new2.txt 
+  192  git rm new2.txt 
+  193  git rm --cached new2.txt 
+  194  git status
+  195  git add test.txt 
+  196  git status
+  197  git rm --cached test.txt 
+  198  git status
+  199  git add test.txt 
+  200  git status
+  201  git rm test.txt 
+  202  git status
+  203  git rm test.txt 
+  204  git rm --cached test.txt 
+  205  git status
+  206  git add test.txt 
+  207  git status
+  208  git rm --cached -f test.txt 
+  209  git status
+  210  git add .
+  211  git status
+  212  cat new.txt 
+  213  cat new2.txt 
+  214  git status
+  215  git commit -m "Testing"
+  216  git status
+  217  vi new2.txt 
+  218  git status
+  219  git commit -m --allow-empty-message
+  220  git commit -m "third comit"
+  221  git status
+  222  cat new.txt 
+  223  cat new2.txt 
+  224  git commit -m "4th comit"
+  225  git remote -v
+  226  git commit -m
+  227  git commit
+  228  git commit -m "test"
+  229  git remote add origin git@github.com:jeffsocalled/MATLAB.git
+  230  git push origin main
+  231  ls
+  232  cp ../Mygit ../Mygit2
+  233  cp -r../Mygit ../Mygit2
+  234  cp -r ../Mygit ../Mygit2
+  235  ls
+  236  git pull origin main
+  237  ls
+  238  git rebase
+  239  git rebase main
+  240  git commit -m "er"
+  241  cat new2.txt 
+  242  git rm --cached new2.txt 
+  243  git status
+  244  git commit -m "dfd"
+  245  git add .
+  246  git stauts
+  247  git status
+  248  ls
+  249  git commit -m "dfdf"
+  250  git status
+  251  ls
+  252  ls -a
+  253  git push origin main
+  254  ls
+  255  git status
+  256  git pull origin main
+  257  ls
+  258  rm test.txt 
+  259  git pull origin main
+  260  git pull origin main --allow-unrelated-histories
+  261  ls
+  262  git status
+  263  vi new.txt 
+  264  git status
+  265  git commit
+  266  git commit -m "Ksdf"
+  267  git restore new.txt new.txt 
+  268  ls
+  269  git status
+  270  git push origin main
+  271  git add .
+  272  git status
+  273  git push origin main
+  274  git add .
+  275  ls
+  276  git status
+  277  rm new.txt 
+  278  git status
+  279  git commit -m "deleted new"
+  280  git commit -a
+  281  git commit -m "dfd"
+  282  git restore new.txt 
+  283  git status
+  284  ls
+  285  git commit -m "fd"
+  286  git push origin main
+  287  rm new.txt 
+  288  git status
+  289  git push origin main
+  290  git commit -m "fd"
+  291  git add .
+  292  ls
+  293  git push origin main
+  294  git commit -m "dfd'
+  295  git commit -m "dfd"
+  296  git push origin main
+  297  git commit -m "fd"
+  298  rm test.txt 
+  299  git status
+  300  git commit -m "fdd"
+  301  ls
+  302  git restore test.txt 
+  303  ls
+  304  rm test.txt 
+  305  git commit -m "fdd"
+  306  git rm --cached test.txt 
+  307  ls
+  308  git status
+  309  ls
+  310  git commit -m "Dfdf"
+  311  git push origin main
+  312  ls
+  313  git rm -f new2.txt 
+  314  ls
+  315  git push origin main
+  316  git commit -m "fdf"
+  317  git push origin main
+  318  exit
+  319  cd D:
+  320  ls
+  321  cd Intellipaat\ course/
+  322  ls
+  323  cd DevOps
+  324  ls
+  325  git clone https://github.com/lycanthrope10100/test.git
+  326  git clone https://github.com/lycanthrope10100/test.git
+  327  git clone https://github.com/lycanthrope10100/test.git
+  328  mkdir terraform
+  329  git clone https://github.com/lycanthrope10100/test.git
+  330  git clone http://github.com/lycanthrope10100/test.git
+  331  git clone https://github.com/lycanthrope10100/test.git
+  332  ping www.github.com
+  333  git remote -v
+  334  ls
+  335  cd D:
+  336  cd Intellipaat\ course/
+  337  ls
+  338  cd DevOps
+  339  ls
+  340  cd terraform/
+  341  ls
+  342  git clone https://github.com/lycanthrope10100/test
+  343  git clone https://github.com/lycanthrope10100/test.git
+  344  git clone ssh://github.com/lycanthrope10100/test
+  345  pwd
+  346  ls
+  347  mkdir Git1
+  348  cd Git1
+  349  touch Code.txt Log.txt Output.txt
+  350  ls
+  351  git init
+  352  git status
+  353  git add Code.txt Output.txt 
+  354  git status
+  355  git commit -m "comitted Code,Output files"
+  356  git remote add origin https://github.com/jeffsocalled/Git-IP-Assignment.git
+  357  git push -u origin main
+  358  history
+  359  history --help
+  360  cat >>history.txt<<EOF
+  361    447  mkdir Git1
+  362    448  cd Git1
+  363    449  touch Code.txt Log.txt Output.txt
+  364    450  ls
+  365    451  git init
+  366    452  git status
+  367    453  git add Code.txt Output.txt
+  368    454  git status
+  369    455  git commit -m "comitted Code,Output files"
+  370    456  git remote add origin https://github.com/jeffsocalled/Git-IP-Assignment.git
+  371    457  git push -u origin main
+  372  EOF
+  373  git status
+  374  git add history.txt 
+  375  git status
+  376  git commit -m "Added history of cmd"
+  377  git push -u origin main
+  378  mkdir Git2
+  379  git status
+  380  cd Git2
+  381  cd ..
+  382  rm Git2
+  383  rmdir Git2
+  384  cd ..
+  385  mkdir Git2
+  386  cd Git2
+  387  git branch
+  388  git init -b main
+  389  ls
+  390  ls -a
+  391  rm -rf .git
+  392  git init -b master
+  393  touch feature1.txt feature2.txt
+  394  git branch develop master
+  395  git branch develop
+  396  git branch
+  397  git branch develop/develop
+  398  git init .
+  399  ls -a
+  400  git branch develop
+  401  git branch develop/develop
+  402  git branch
+  403  git branch develop
+  404  git status
+  405  git add .
+  406  git branch develop
+  407  git status
+  408  git commit
+  409  git logs
+  410  git log
+  411  git commit -m "first commit"
+  412  git branch
+  413  git branch develop
+  414  git branch
+  415  git branch feature1 feature2
+  416  git branch feature1
+  417  git branch feature2
+  418  git branch
+  419  git checkout develop 
+  420  touch develop.txt
+  421  git status
+  422  ls -a
+  423  ll -h
+  424  git status
+  425  git stash -u
+  426  git status
+  427  git checkout feature1
+  428  vi new.txt
+  429  git add new.txt
+  430  git status
+  431  git commit "Created new.txt in feature1 brnch"
+  432  git commit -m "Created new.txt in feature1 brnch"
+  433  git status
+  434  git checkout develop
+  435  git status
+  436  git unstash
+  437  git stash pop
+  438  git status
+  439  cd ..
+  440  rm -rf Git2
+  441  ls
+  442  reset
+  443  clear
+  444  mkdir Git2
+  445  cd Git2
+  446  git init
+  447  touch feature1.txt
+  448  ls
+  449  rm -rf *
+  450  cd ..
+  451  rm -rf Git2
+  452  reset
+  453  mkdir Git2
+  454  cd Git2
+  455  git init
+  456  touch feature1.txt feature2.txt
+  457  git status
+  458  git add .
+  459  git commit -m "Added featre1&2.txt"
+  460  git branch
+  461  cd ..
+  462  rm -rf Git2
+  463  reset
+  464  mkdir Git2
+  465  cd Git2
+  466  git init -b master
+  467  touch feature1.txt feature2.txt
+  468  git commit -m "Added feature1&2.txt"
+  469  git add .
+  470  git status
+  471  git commit -m "Added feature1&2.txt"
+  472  git branch
+  473  git branch develop
+  474  git branch feature1
+  475  git branch feature2
+  476  git branc
+  477  git branch
+  478  git checkout develop 
+  479  cat >>develop.txt<<EOF
+  480  Created develop.txt in develop branch
+  481  EOF
+  482  git status
+  483  git stash -u
+  484  checkout feature1
+  485  git checkout feature1
+  486  vi new.txt
+  487  git add new.txt 
+  488  git status
+  489  git commit -m "Added new.txt in feature1"
+  490  git checkout develop 
+  491  git stash pop
+  492  git -m commit "Unstashed & committed develop.txt (without adding it)"
+  493  git commit -m "Unstashed & committed develop.txt (without adding it)"
+  494  git add develop.txt 
+  495  git commit -m "Unstashed & committed develop.txt (after staging it)"
+  496  history
+  497  exit
+  498  ls
+  499  D:
+  500  cd D
+  501  cd D:
+  502  ls
+  503  cd Intellipaat\ course/
+  504  ls
+  505  cd Devops/
+  506  ls
+  507  cd Git/
+  508  ls
+  509  cd Assignments/
+  510  ls
+  511  mkdir Gittest
+  512  cd Gittes
+  513  cd Gittest/
+  514  ls -a
+  515  git clone https://github.com/jeffsocalled/Git-IP-Assignment.git
+  516  git clone http://github.com/jeffsocalled/Git-IP-Assignment.git
+  517  git clone 
+  518  git clone https://github.com/jeffsocalled/Git-IP-Assignment.git
+  519  ls -a
+  520  cd Git-IP-Assignment/
+  521  git branch
+  522  git checkout featureA
+  523  git checkout -b featureA
+  524  ls -a
+  525  git branch
+  526  touch newfile
+  527  git status
+  528  git commit -m "committing just after creating file"
+  529  git log
+  530  echo "Nothing added to commit-so no change in status"
+  531  git add .
+  532  git status
+  533  echo "After git add . the newfile which was created is green and changes being tracked in status"
+  534  git status
+  535  nano newfile2.txt
+  536  git status
+  537  echo "After git add . and after newfile was being tracked, created newfile2.txt which is now red and untracked. newfile is still green and geing tracked"
+  538  git add .
+  539  git status
+  540  echo "after git add . now, both files being tracked"
+  541  git commit -m "commiting after two new files are added"
+  542  git status
+  543  ls -a
+  544  git checkout main
+  545  ls -a
+  546  echo "The files created after checkout to featureA are not visible in checkout to main"
+  547  git status
+  548  git checkout featureA
+  549  git status
+  550  touch file3.txt
+  551  git status
+  552  git commit -m "committed without adding file3.txt"
+  553  echo "no commmits occurrred"
+  554  git checkout main
+  555  git status
+  556  ls
+  557  git push origin main
+  558  echo "The file3.txt(untracked) created after checkout to featureA was visible after checkout to main"
+  559  ls
+  560  echo "And since no change in main branch, nothing could be committed after git commit"
+  561  git status
+  562  echo "The file3.txt created in featureA is visible and is untracked in main (git status)"
+  563  git add file3.txt
+  564  git status
+  565  git push orgin main
+  566  git push origin main
+  567  echo "git push din't add the tracked file file3.txt as it was not committed before push"
+  568  git commit -m "Added two files in featureA branch and a file3.txt in main branch. pushing from main branch"
+  569  git push origin main
+  570  echo "Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 274 bytes | 274.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/jeffsocalled/Git-IP-Assignment.git
+   b46f6d1..9739192  main -> main
+"
+  571  echo "file3.txt is visible in github"
+  572  git checkout featureA
+  573  git stats
+  574  git status
+  575  ls -a
+  576  echo "featureA is clean and file3.txt is not visible on checkout to featureA. newfile and newfile2.txt is visible"
+  577  git status
+  578  touch featureAfile3.txt
+  579  git status
+  580  git commit -m "committed after creating featureAfile3.txt"
+  581  echo "nothing added so nothing committed"
+  582  git add .
+  583  git status
+  584  git commit -m "committed again after creating featureAfile3.txt"
+  585  git status
+  586  git push origin main
+  587  ls -a
+  588  echo "featureAfile3.txt is visible in featureA"
+  589  git checkout main
+  590  ls 
+  591  echo "featureAfile3.txt is not visible in main"
+  592  ls | echo
+  593  ls
+  594  git logs
+  595  git log
+  596  git push origin featureA 
+  597  git status
+  598  git push orign main
+  599  git push origin main
+  600  git checkout featureA 
+  601  git push origin featureA 
+  602  ls -a
+  603  git merget master
+  604  git merge master
+  605  ls -a
+  606  git checkout main
+  607  ls -a
+  608  git checkout featureA 
+  609  git merge main
+  610  ls -a
+  611  echo "after git merge in featureA all files of master seen in featurea"
+  612  git checkout main
+  613  ls
+  614  git merge featureA 
+  615  ls 
+  616  git status
+  617  git push origin main
+  618  git branch
+  619  git status
+  620  git branch -d featureA 
+  621  ls -a
+  622  git status
+  623  git push origin main
+  624  git branch
+  625  git -D featureA
+  626  git branch -D featureA
+  627  git branch -d featureA
+  628  git branch -d origin featureA
+  629  git branch -D origin featureA
+  630  git branch -a
+  631  git branch -r -d origin/featureA
+  632  git branch -a
+  633  git remote prune origin
+  634  git getch origin --prune --dry-run
+  635  git fetch origin --prune --dry-run
+  636  git branch -a
+  637  git fetch --prune --dry-run
+  638  git push -d origin featureA
+  639  git branch -a
+  640  echo "deleted remote featureA successfully with git push -d origin featureA"
+  641  history > extensivehistory_git.txt
